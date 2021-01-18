@@ -1,0 +1,407 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+      background-color: white;
+      display: grid;
+      row-gap: 0px;
+      font-family: century gothic;
+    
+}
+section{
+    border-bottom: 1px solid grey;
+    padding: 50px 0px;
+
+}
+h2,h3,h4{
+     margin: 0;;
+}
+#hero{border-bottom: 0px solid black;}
+header{
+          background-color: white;
+          
+          text-align: center;
+          align-items: center;
+          position: fixed;
+          width:  100%;
+          top: 0%;
+          z-index: 1000;
+          box-shadow: 2px 2px 9px 1px grey ;
+          
+
+}
+#about{
+    height: 50vh;
+}
+nav h2{
+    margin-left: 30px;
+    font-family: century gothic;
+    padding: 0;
+}
+nav a{
+     text-decoration:  none;
+     color:  black;
+     padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px ;
+   
+}
+.navlist{
+           list-style-type:none;
+           margin-right: 20px;
+
+}
+nav ul li{
+          float: left;
+          padding: 20px 30px;
+          
+          
+
+}
+#hero{
+
+}
+.main-menu{
+    margin-top: -15px;
+    font-family:  -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 500;
+}
+#main{
+     display: flex;
+     justify-content: flex-end;
+     column-gap: 00px;
+     align-items: center;
+}
+.heroright{
+     width : 95%;
+     background-color: rgb(194, 194, 190);
+     height:  120vh;
+     
+}
+.herodesc{
+             width:  100%;
+             height: 120vh;
+             background-color:  rgba(204, 204, 202, 0.523);
+             
+            
+}
+.mainimg{
+         width: 35%;
+         
+         z-index: 1;
+         position: absolute;
+         top : 14%;
+         left: 35%;
+    
+}
+.herocon{
+        display: flex;
+
+}
+.herotext{
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      font-family: century gothic;
+      font-size: 28px;
+}
+.herotext h1,h4{margin: 0px;
+ line-height: 1.5em;}
+ .herotext h1{
+               font-size:  45px;
+ }
+button{
+        padding : 10px 33px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 0px;
+        font-size: 16px;
+        border: 1px solid black;
+
+
+    }
+.black{
+    background: black;
+    color:  white;
+}
+.white{
+      background-color: white;
+      color: black;
+}
+ .trans{
+        background-color: rgb(250, 245, 221,0);
+        color:black;
+}
+
+#about{
+    border-bottom: 1px solid grey;
+}
+.aboutflex{
+             display: flex;
+             
+             justify-content: flex-start;
+             padding: 10px 40px;
+             margin: 0 40px;
+             box-shadow: 1px 1px 9px 1px grey;
+             background-color: white;
+             position: relative;
+             top: -200px;
+             z-index: 500;
+             overflow: hidden;
+             max-width: 1200px;
+             align-content: center;
+             align-items: center;
+             font-family: century gothic;
+
+}
+.about-left{
+             display:  flex;
+             height: 70vh;
+             overflow: hidden;
+             padding-right: 20px;
+
+             
+}
+.aboutimg{
+            position: absolute;
+            left: 180px;
+            width: 25%;
+            background-color: rgba(228, 221, 221, 1);
+            top: 20px;
+
+            
+            
+}
+.frame{
+        width: 95%;
+}
+.about-text{
+              
+              overflow: hidden;
+              
+              line-height: 1em;
+              font-family: Century gothic;
+              padding-left: 80px;
+              
+              
+}
+.plancard{
+            display : flex;
+            
+            justify-content: space-evenly;
+            padding:  10px 90px;
+            font-size: 18px;
+
+}
+.card{
+        background-color: black;
+        height: 50vh;
+        width: 300px;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    
+}
+#service{
+    height: 100vh;
+}
+.num{
+     background-color: white;
+     border-radius: 70%;
+     color: black;
+     display: inline-block;
+     padding: 10px 15px;
+     margin-top:  20px;
+     font-size: 18px;
+
+}
+.servicepara{
+           padding: 0px 140px 0px 160px;
+           font-weight: 500;
+
+}
+.servicepara h2{margin-top: 0px;
+                font-size: 2rem;
+}
+#contact{
+             background-color:  black;
+             color: rgb(232, 223, 223);
+             text-align: center;
+             width: 100vw;
+             padding: 100px 0px;
+}
+.contact h1{
+     font-size: 40px;
+     font-weight: 400;
+     font-family: century gothic;
+}
+.contact button{
+    background-color: white;
+    color: black;
+    font-family: inherit;
+}
+#socialsec{
+     text-align: center;
+     padding: 40px 40px;
+}
+.black:hover{
+    background-color: transparent;
+    color: black;
+    transition-duration: 0.5s;
+}
+.trans:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    transition-duration: 0.5s;
+}
+.white:hover{
+    background-color: rgb(248, 230, 192);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+.icon i{
+     color: black;
+     display: inline-block;
+     padding: 10px ;
+     margin: 0 10px;
+     border-radius: 50%;
+     box-shadow: 1px 1px 9px 1px grey;
+}
+.social i{
+     color: black;
+     background-color: white;
+     font-size: 18px;
+    
+     
+}
+.social{
+    position: fixed;
+    right: 0px;
+    top: 30%;
+    z-index: 2000;
+
+}
+.social a{
+padding: 15px;
+color: black;
+background-color: white;
+box-shadow: 1px 1px 8px 1px grey;
+text-decoration:  none;
+cursor: pointer;
+margin-bottom:3px;
+display: block;
+text-align: center;
+}
+.icon .fa-facebook{
+    padding: 10px 12px;
+}
+.icon i:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+
+.navicon{
+    display: none;
+}
+@media screen and (max-width:740px){
+    body{
+        margin: 0;
+        padding: 0;
+        color:black;
+    }
+.navicon{
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    display: block;
+    
+}
+header{
+    width : 100vw;
+}
+nav ul a{
+    display: none;
+}
+section{
+    padding: 0px;
+    margin: 0px;
+}
+#hero{
+    text-align: center;
+    margin: 0;
+    height: 120vh;
+
+    
+
+
+}
+#main{height: 100vh;}
+.herotext{
+    width: 84vw;
+    
+}
+.mainimg{
+    margin-top: -30px;
+}
+.about-left{max-width: 100%;
+height: 40vh;
+padding-bottom: 0;
+margin-bottom: -40px;}
+.frame{
+    height: 200px;
+    margin-top: 20px;
+    width: 230px;
+    margin-left: 20px;
+}
+.aboutimg{
+    height: 180px;
+    width: 140px;
+    margin-right: 10px;
+}
+.about-text{
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+.servicepara{
+    padding: 10px 10px;
+    padding-top: 100px;
+    line-height: 1.6rem;
+}
+.aboutflex{
+    margin:0px;
+    flex-wrap: wrap;
+    
+    
+
+}
+.plancard{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 0px;
+padding: 10px;
+
+}
+#service{
+    display: block;
+    height: 210vh;
+
+}
+.card{
+    margin: 10px 0px;
+    max-width: 100%;
+    box-shadow: 1px 1px 8px 1px grey;
+ 
+}
+}
